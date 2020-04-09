@@ -1,0 +1,37 @@
+.sizing {
+    margin: 0;
+    padding: 0;
+}
+
+.contactTitle {
+    font-size: 20px;
+    font-family: 'Roboto Regular', sans-serif;
+    color: #cb0a12;
+    text-align: left;
+    font-weight: 500;
+  }
+
+.progressDiv {
+    background-color: #ffffff;
+    font-family: 'Roboto Light', 'Arial', 'Helvetica', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    padding: 30px 20px;
+}
+
+.progressCircle {
+    margin: 0 auto;
+}
+
+.progressText {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.paratext {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Light', 'Arial', 'Helvetica', sans-serif;
+    font-size: 13px;
+    text-align: left;
+}

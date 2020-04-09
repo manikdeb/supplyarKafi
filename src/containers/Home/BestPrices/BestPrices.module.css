@@ -1,0 +1,110 @@
+.sizing {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+
+  .bestPricesTitle {
+    color: #cb0a12;
+    font-family: 'Roboto Light', 'Arial', 'Helvetica', sans-serif;
+    font-size: 20px;
+    text-align: left !important;
+    margin: 0;
+    padding: 0 ;
+    padding: 30px 0px 5px 0px;
+  }
+  
+  .bestPricesShowmore {
+    text-decoration: none;
+    font-family: 'Roboto Regular', 'Arial', 'Helvetica', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    color: #cb0a12;
+    float: right;
+    margin: 0;
+    padding: 0 ;
+    padding: 30px 0px 5px 0px;
+  }
+  
+  .bestPricesShowmore:hover {
+    font-weight: 700;
+    text-decoration: none;
+    color: #2c3539;
+  }
+  
+  .bestPricesCardBody {
+    background-color: #ffffff !important;
+    width: 98%;
+    height: auto;
+    margin: 0 auto;
+    padding: .5rem .5rem;
+    margin-top: 5px;
+    /* border: 1px dashed grey; */
+  }
+  
+  .bestPricesCardBody:hover {
+    cursor: pointer;
+    box-shadow: 4px 4px#d0dde7;
+  }
+  
+  .bestPricesTitleBox {
+    height: 40px;
+    /* border: 1px dashed pink; */
+  }
+  
+  .bestPricesCardBody .bestPricesCompanyTitle {
+    /* font-family: 'PRISTINA', 'Arial', 'Helvetica', sans-serif; */
+    font-family: 'Great Vibes', cursive;
+    font-size: 20px;
+    text-align: left;
+  }
+  
+  .bestPricesCardBody .bestPricesCompanyTitle .secnodPart {
+    /* font-family: 'PRISTINA', 'Arial', 'Helvetica', sans-serif; */
+    font-size: 20px;
+    font-size: 20px;
+    text-align: left;
+    color: #cb0a12;
+  }
+  
+  .bestPricesCardBody .bestPricesProductImage {
+    height: 190px;
+  }
+  
+  .bestPricesCardBody .bestPricesProductNameBox {
+    height: 65px;
+  }
+  
+  .bestPricesCardBody .bestPricesProductName {
+    font-family: 'Roboto Regular', 'Arial', 'Helvetica', sans-serif;
+    font-size: 11px;
+    text-align: left;
+  }
+  
+  .bestPricesCardBody .bestPricesSpecificationBox {
+    height: 65px;
+    padding: .5rem 0rem;
+  }
+  
+  .bestPricesCardBody .bestPricesProductSpecification {
+    font-family: 'Roboto Light', 'Arial', 'Helvetica', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    color: #1e2021;
+    text-align: left;
+    line-height: 0.5em;
+  }
+  
+  .bestPricesCardBody .bestPricesProductSpecification .specificationValue {
+    font-family: 'Roboto Light', 'Arial', 'Helvetica', sans-serif;
+    font-size: 10px;
+    font-weight: normal !important;
+    color: #6a6f71;
+    text-align: center !important;
+  }
+  
+  .bestPricesCardBody a {
+    text-decoration: none;
+  }
+  
+ 

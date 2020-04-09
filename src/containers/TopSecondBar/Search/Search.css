@@ -1,0 +1,85 @@
+.sizzing {
+    margin: 0;
+    padding: 0;
+}
+
+.myOption {
+    color: #252a2d !important;
+}
+
+.myOption:hover,
+.myOption:active,
+.myOption.active {
+    background-color: red !important;
+    color: #252a2d !important;
+}
+
+
+/* lg */
+@media only screen and (min-width: 922px) {
+    .uiForm .Field .uiInput, .uiForm .Fields .Field .uiInput {
+        width: 300px;
+    }
+
+    .uiForm .Field .uiInput input, .uiForm .Fields .Field .uiInput input {
+        width: 300px;
+    }
+}
+
+/* md */
+@media   (min-width: 768px) {
+    
+}
+
+/* sm */
+@media  (max-width: 768px)  {
+    
+    .uiForm .Field .uiInput, .uiForm .Fields .Field .uiInput {
+        width: 250px;
+        max-width: 250px;
+        min-width: 250px;
+    }
+
+    .uiForm .Field .uiInput input, .uiForm .Fields .Field .uiInput input {
+        width: 250px;
+        max-width: 250px;
+        min-width: 250px;
+    }
+
+    .dropSizing {
+        min-width: 180px !important;
+        max-width: 180px !important;
+        width: 180px !important;
+    }
+
+    .uiButton {
+        margin-left: -13px !important;
+        width: 100% !important;
+    }
+
+}
+
+/* xs */
+@media  (max-width: 576px) {
+    
+    .uiForm .Field .uiInput, .uiForm .Fields .Field .uiInput {
+        width: 300px !important;
+        max-width: 300px !important;
+        min-width: 300px !important;
+    }
+
+    .uiForm .Field .uiInput input, .uiForm .Fields .Field .uiInput input {
+        width: 300px !important;
+        max-width: 300px !important;
+        min-width: 300px !important;
+    }
+
+    .dropSizing {
+        width: auto;
+    }
+
+    .uiButton {
+        width: 100% !important;
+    }
+    
+}

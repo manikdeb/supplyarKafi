@@ -1,0 +1,227 @@
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    background-image: none;
+}
+  
+.dropbtn {
+    font-family: 'Roboto Thin', 'Arial', 'Helvetica', sans-serif;
+    font-size: 13px;  
+    background-color: #ffffff !important;
+    color: #2c3539;
+    height: 36px !important;
+    border: none !important;
+    outline: none !important;
+    width: 98px;
+}
+  
+.allProducts {
+    overflow: hidden;
+}
+  
+.allProducts:hover .dropbtn {
+    background-color: #d3d3d3;
+    color: #ed1c24;
+    text-decoration: none;
+}
+  
+.allProducts .dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    color: #252a2d;
+    width: 495px; 
+    box-shadow: 1px 1px #d3d3d3;
+    margin-top: 2px !important;
+    z-index: 2;
+}
+  
+.allProducts:hover  .dropdownContent {
+    display: block;
+    padding: 5px;
+    margin: 0;
+}
+
+.allProducts .dropdownContent .myCategory {
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+
+.allProducts .dropdownContent .myCategory ul {
+    list-style-type: none;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.allProducts .dropdownContent .myCategory ul li {
+   list-style: none;
+   cursor: pointer;
+   transition-duration: 0.5s;
+   color: #2c3539;
+}
+
+.allProducts .dropdownContent .myCategory ul li:hover,
+.allProducts .dropdownContent .myCategory ul li:active,
+.allProducts .dropdownContent .myCategory ul li.active {
+    color: #ed1c24;
+}
+
+/* .allProducts .dropdownContent .myCategory ul li:hover .categoriesText {
+    color: #1361a0;
+    cursor: pointer;
+} */
+
+.allProducts .dropdownContent .mySubCategory {
+    display: none;
+    width: 100%;
+    /* background-color: antiquewhite; */
+}
+
+.allProducts .dropdownContent .myCategory:hover .mySubCategory {
+    display: block;
+}
+
+.allProducts .dropdownContent .mySubCategory ul {
+    list-style-type: none;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.allProducts .dropdownContent .mySubCategory ul li {
+   list-style: none;
+   cursor: pointer;
+   transition-duration: 0.5s;
+   color: #1361a0;
+   margin-left: 10px;
+}
+
+.allProducts .dropdownContent .mySubCategory ul li:hover,
+.allProducts .dropdownContent .mySubCategory ul li:active,
+.allProducts .dropdownContent .mySubCategory ul li.active {
+    color: grey;
+}
+  
+.cart {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.cart li {
+    float: right;
+}
+  
+.cart li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #252a2d;
+}
+  
+.cart li a:hover {
+    color: #ed1c24;;
+}
+
+.myLeft {
+    margin-left: -13px;
+}
+
+/* lg */
+@media only screen and (min-width: 922px) {
+
+}
+
+/* md */
+@media   (min-width: 768px) {
+    .cart li {
+        float: right;
+    }
+}
+
+/* sm */
+@media  (max-width: 768px)  {
+    .allProducts .dropdownContent {
+        width: 597px; 
+    }
+
+    .logoPic {
+        float: left;
+    }
+
+    .allProducts {
+        padding-top: 5px;
+        margin-left: 18px !important;
+        padding-bottom: 5px;
+    }
+
+    .btn{
+        width: 100% !important;
+    }
+
+    .dropbtn {
+        min-width: 100% !important;
+        /* margin: 0 auto; */
+    }
+
+    .allProducts .dropdownContent {
+        width: 90% !important;
+    }
+
+    .searchSection {
+        padding-top: 5px;
+    }
+
+    .cart li {
+        float: left;
+        padding-top: 5px;
+    }
+
+    .myLeft {
+        margin-left: 0px;
+    }
+
+}
+
+/* xs */
+@media  (max-width: 576px) {
+    .logoPic {
+        float: left;
+    }
+
+    .allProducts {
+        padding-top: 5px;
+    }
+
+    .btn{
+        width: 100% !important;
+    }
+
+    .dropbtn {
+        min-width: 100% !important;
+        /* margin: 0 auto; */
+    }
+
+    .allProducts .dropdownContent {
+        width: 90% !important;
+    }
+
+    .searchSection {
+        padding-top: 5px;
+    }
+
+    .cart li {
+        float: left;
+        padding-top: 5px;
+    }
+}
+
+
+

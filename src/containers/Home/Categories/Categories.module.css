@@ -1,0 +1,127 @@
+.sizing {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.categoriesTitle {
+  color: #cb0a12;
+  font-family: 'Roboto Light', 'Arial', 'Helvetica', sans-serif;
+  font-size: 20px;
+  text-align: left !important;
+  margin: 0;
+  padding: 0 ;
+  padding: 30px 0px 5px 0px;
+}
+
+.categoriesShowmore {
+  text-decoration: none;
+  font-family: 'Roboto Regular', 'Arial', 'Helvetica', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  color: #cb0a12;
+  float: right;
+  margin: 0;
+  padding: 0 ;
+  padding: 30px 0px 5px 0px;
+}
+
+.categoriesShowmore:hover {
+  font-weight: 700;
+  text-decoration: none;
+  color: #2c3539;
+}
+  
+.categoriesCardBody {
+  background-color: #ffffff !important;
+  width: 98%;
+  height: auto;
+  margin: 0 auto;
+  padding: .5rem .5rem;
+}
+  
+.categoriesCardBody  img {
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+
+.categoriesCardBody .categoriesLink  {
+  text-decoration: none;
+  text-align: left;
+  font-size: 10px;
+  margin: 0 auto;
+  margin-top: 6px;
+  cursor: pointer;
+}
+
+.categoriesCardBody .categoriesLink:hover {
+  color: #ed1c24;
+}
+
+
+
+/* lg */
+@media only screen and (min-width: 922px) {
+
+}
+
+/* md */
+@media   (min-width: 768px) {
+  
+}
+
+/* sm */
+@media  (max-width: 768px)  {
+  .categoriesCardBody {
+    background-color: #ffffff !important;
+    height: 80px;
+    padding: .5rem .5rem;
+    margin-bottom: 6px;
+  }
+
+  .categoriesCardBody  img {
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+  }
+
+  .categoriesCardBody .categoriesLink  {
+    text-decoration: none;
+    text-align: left;
+    font-size: 7px !important;
+    margin: 0 auto;
+    margin-top: 6px;
+  }
+  
+.categoriesCardBody a {
+    color: #2c3539;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 11px;
+    text-align: left !important;
+  }
+  
+.categoriesCardBody a:hover {
+    color: #ed1c24;
+  }
+}
+
+/* xs */
+@media  (max-width: 576px) {
+
+  .categoriesCardBody {
+    background-color: #ffffff!important;
+    height: 60px;
+    padding: .5rem 1rem;
+    margin-bottom: 6px;
+  }
+
+  .categoriesCardBody  img {
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+  }
+  
+}
+

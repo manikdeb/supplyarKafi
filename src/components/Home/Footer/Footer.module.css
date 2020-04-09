@@ -1,0 +1,68 @@
+.footer {
+  height: auto;
+  width: 100%;
+  background-color: #595958;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 ;
+  box-sizing: border-box;
+  z-index: 90;
+}
+
+.footer .myPadding {
+  padding: 15px 0px;
+}
+  
+.listAll {
+  font-family: 'Roboto Light', 'Arial', 'Helvetica', sans-serif;
+  margin: 0 auto 1em auto;
+  text-align: center;
+}
+  
+.listAll li {
+  display: inline;
+  padding: 10px 4px;
+}
+  
+.listAll li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+}
+  
+ .listAll li:hover a {
+  text-decoration: none;
+  color: #000000;
+}
+  
+.para {
+  font-family: 'Roboto Light', 'Arial', 'Helvetica', sans-serif;
+  text-align: center !important;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.footerLogo {
+  float: left;
+  margin-top: 18px;
+}
+
+/* sm */
+@media  (max-width: 768px)  {
+  .footerLogo {
+    margin: 0 auto !important;
+    margin: 10px 0px;
+  }
+}
+
+/* xs */
+@media  (max-width: 576px) {
+  .footerLogo {
+    margin: 0;
+    padding: 0;
+    float: left;
+    padding: 20px 0px;
+  }
+}

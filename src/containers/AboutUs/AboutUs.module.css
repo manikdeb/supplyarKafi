@@ -1,0 +1,98 @@
+.sizing {
+    margin: 0;
+    padding: 0;
+}
+
+.aboutTitle {
+  font-size: 20px;
+  font-family: 'Roboto Regular', sans-serif;
+  color: #cb0a12;
+  text-align: left;
+  font-weight: 500;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+.imgResponsive {
+    width: 100%;
+    height: auto;
+}
+
+.memberTitle {
+    font-family: 'Roboto Regular', 'Arial', 'Helvetica', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.thirdDivTitle {
+    font-family: 'Roboto Medium', 'Arial', 'Helvetica', sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+.thirdDivPara {
+    font-family: 'Roboto Light', 'Arial', 'Helvetica', sans-serif;
+    font-size: 14px;
+    text-align: left;
+}
+
+/*  Team Person  */
+
+.teamTitle {
+    font-family: 'Roboto Regular', 'Arial', 'Helvetica', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    font-weight: normal;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    border: 1px solid grey;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .7s ease;
+    background-color: black;
+  }
+  
+  .container:hover .overlay {
+    border: 1px solid white;
+    opacity: .8;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .memberDesgination, .memberName {
+    font-family: 'Roboto Regular', 'Arial', 'Helvetica', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+  }

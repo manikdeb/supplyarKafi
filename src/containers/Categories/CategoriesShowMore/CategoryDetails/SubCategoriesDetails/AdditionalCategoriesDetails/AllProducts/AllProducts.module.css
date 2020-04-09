@@ -1,0 +1,99 @@
+.sizing {
+    padding: 0;
+    margin: 0;
+}
+
+.allProductsCardBody {
+    position: relative;
+    background-color: #ffffff !important;
+    width: 92%;
+    height: auto;
+    margin: 0 auto;
+    padding: .5rem .5rem;
+    margin-top: 5px;
+  }
+  
+.allProductsCardBody:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 0px 4px#ccc;
+}
+
+.allProductsCardBody a {
+    text-decoration: none;
+}
+
+.allProductsTitleBox {
+    height: 40px;
+    /* border: 1px dashed pink; */
+}
+  
+.allProductsCompanyTitle {
+    /* font-family: 'PRISTINA', 'Arial', 'Helvetica', sans-serif; */
+    font-family: 'Great Vibes', cursive;
+    font-size: 20px;
+    text-align: left;
+}
+  
+.allProductsCompanyTitle .secnodPart {
+    /* font-family: 'PRISTINA', 'Arial', 'Helvetica', sans-serif; */
+    font-size: 20px;
+    font-size: 20px;
+    text-align: left;
+    color: #ed1c24;
+}
+  
+.allProductsProductImage {
+    height: 190px;
+}
+  
+.allProductsProductNameBox {
+    height: 65px;
+}
+  
+.allProductsProductName {
+    font-family: 'Roboto Regular', 'Arial', 'Helvetica', sans-serif;
+    font-size: 11px;
+    text-align: left;
+}
+  
+.allProductsSpecificationBox {
+    height: 65px;
+    padding: .5rem 0rem;
+}
+  
+.allProductsProductSpecification {
+    font-family: 'Roboto Light', 'Arial', 'Helvetica', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    color: #1e2021;
+    text-align: left;
+    line-height: 0.5em;
+}
+  
+.allProductsProductSpecification .specificationValue {
+    font-family: 'Roboto Light', 'Arial', 'Helvetica', sans-serif;
+    font-size: 10px;
+    font-weight: normal !important;
+    color: #6a6f71;
+    text-align: center !important;
+}
+
+
+/* For Modal */
+/* .productModal {
+    display: none;
+} */
+
+.productModal{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid red;
+    width: 250px;
+    height: auto;
+    padding: 10px;
+    background-color: #ffffff;
+    color: #6a6f71;
+    font-family: 'Roboto', 'sans-serif';
+}
